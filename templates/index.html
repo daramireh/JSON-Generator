@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Archivo Excel</title>
+</head>
+<body>
+    <h1>Subir un Archivo Excel</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Seleccione el archivo Excel:</label><br>
+        <input type="file" id="file" name="file" accept=".xlsx, .xls, .csv" required><br><br>
+        <input type="submit" value="Subir Archivo">
+    </form>
+</body>
+</html>
